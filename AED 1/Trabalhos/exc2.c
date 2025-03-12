@@ -24,6 +24,6 @@ int** generate(int numRows, int* returnSize, int** returnColumnSizes)
         }
     }
 
-    return resultado; // retorna o triangulo completo
+    return resultado; // retorna o triangulo completo     
     free(returnColumnSizes); // Free na memoria
 }
